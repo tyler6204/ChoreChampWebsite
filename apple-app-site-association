@@ -1,23 +1,8 @@
 {
     "applinks": {
+        "apps": [],
         "details": [
              {
-               "appIDs": [ "3982L8EWZ8.TylerYust.ChoreChamp" ],
-               "components": [
-                 {
-                    "/*": "/join/",
-                     "?": { "householdID" : "*" },
-                    "comment": "Matches any URL whose path starts with /join/"
-                 }
-               ]
-             }
-         ]
-     },
-     "webcredentials": {
-        "apps": [ "3982L8EWZ8.TylerYust.ChoreChamp" ]
-     },
-  
-      "appclips": {
-          "apps": ["3982L8EWZ8.TylerYust.ChoreChamp"]
-      }
+               "appID": [ "3982L8EWZ8.TylerYust.ChoreChamp" ],
+                "paths": ["/join/*]
 }
