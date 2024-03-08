@@ -12,10 +12,6 @@
                  {
                     "/*": "/join/*",
                     "comment": "Matches any URL whose path starts with /join/"
-                 },
-                 {
-                    "/*": "/collections/*",
-                    "comment": "Matches any URL whose path starts with /collections/"
                  }
                ]
              }
