@@ -5,12 +5,25 @@
                "appIDs": [ "L7JQRVXU2V.com.Mcrich23.Pickt" ],
                "components": [
                  {
-                    "/": "*",
+                    "#": "no_universal_links",
+                    "exclude": true,
+                    "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+                 },
+                 {
+                    "/": "/pickt/*",
                     "comment": "Matches any URL whose path starts with /pickt/"
                  },
                  {
-                    "/": "/*",
-                    "comment": "Matches any URL whose path starts with /pickt/"
+                    "/*": "/join/*",
+                    "comment": "Matches any URL whose path starts with /join/"
+                 },
+                 {
+                    "/*": "/create/*",
+                    "comment": "Matches any URL whose path starts with /create/"
+                 },
+                 {
+                    "/*": "/collections/*",
+                    "comment": "Matches any URL whose path starts with /collections/"
                  }
                ]
              }
