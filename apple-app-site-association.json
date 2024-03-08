@@ -1,0 +1,26 @@
+{
+    "applinks": {
+        "details": [
+             {
+               "appIDs": [ "L7JQRVXU2V.com.Mcrich23.Pickt" ],
+               "components": [
+                 {
+                    "/": "*",
+                    "comment": "Matches any URL whose path starts with /pickt/"
+                 },
+                 {
+                    "/": "/*",
+                    "comment": "Matches any URL whose path starts with /pickt/"
+                 }
+               ]
+             }
+         ]
+     },
+     "webcredentials": {
+        "apps": [ "L7JQRVXU2V.com.Mcrich23.Pickt" ]
+     },
+  
+      "appclips": {
+          "apps": ["L7JQRVXU2V.com.Mcrich23.Pickt.Clip"]
+      }
+}
