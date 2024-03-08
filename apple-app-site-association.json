@@ -2,7 +2,7 @@
     "applinks": {
         "details": [
              {
-               "appIDs": [ "L7JQRVXU2V.com.Mcrich23.Pickt" ],
+               "appIDs": [ "3982L8EWZ8.TylerYust.ChoreChamp" ],
                "components": [
                  {
                     "#": "no_universal_links",
@@ -22,10 +22,10 @@
          ]
      },
      "webcredentials": {
-        "apps": [ "L7JQRVXU2V.com.Mcrich23.Pickt" ]
+        "apps": [ "3982L8EWZ8.TylerYust.ChoreChamp" ]
      },
   
       "appclips": {
-          "apps": ["L7JQRVXU2V.com.Mcrich23.Pickt.Clip"]
+          "apps": ["3982L8EWZ8.TylerYust.ChoreChamp"]
       }
 }
