@@ -10,16 +10,8 @@
                     "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
                  },
                  {
-                    "/": "/*",
-                    "comment": "Matches any URL whose path starts with /pickt/"
-                 },
-                 {
-                    "/*": "*",
+                    "/*": "/join",
                     "comment": "Matches any URL whose path starts with /join/"
-                 },
-                 {
-                    "/*": "/create/*",
-                    "comment": "Matches any URL whose path starts with /create/"
                  },
                  {
                     "/*": "/collections/*",
