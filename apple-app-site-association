@@ -5,8 +5,7 @@
                "appIDs": [ "3982L8EWZ8.TylerYust.ChoreChamp" ],
                "components": [
                  {
-                    "/*": "/join/",
-                     "?": { "householdID" : "*" },
+                    "/*": "*",
                     "comment": "Matches any URL whose path starts with /join/"
                  }
                ]
