@@ -3,7 +3,7 @@
         "apps": [],
         "details": [
         {
-               "appID": [ "3982L8EWZ8.TylerYust.ChoreChamp" ],
+               "appID": "3982L8EWZ8.TylerYust.ChoreChamp",
                 "paths": ["/join/*]
         }
         ]
