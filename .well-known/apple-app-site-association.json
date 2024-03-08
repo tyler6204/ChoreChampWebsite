@@ -5,11 +5,6 @@
                "appIDs": [ "3982L8EWZ8.TylerYust.ChoreChamp" ],
                "components": [
                  {
-                    "#": "no_universal_links",
-                    "exclude": true,
-                    "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
-                 },
-                 {
                     "/*": "/join/",
                      "?": { "householdID" : "*" },
                     "comment": "Matches any URL whose path starts with /join/"
