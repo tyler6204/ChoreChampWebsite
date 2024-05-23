@@ -281,7 +281,8 @@ button:focus {
 .mu-header-featured-area {
 	display: inline;
 	float: left;
-	padding: 50px 0;
+	padding-bottom: 50px;
+	padding-top: 10px;
 	width: 100%;
 }
 
@@ -575,6 +576,7 @@ button:focus {
 
 .mu-feature-btn {
 	color: #fff;
+	width: 45px;
 	font-size: 18px;
 }
 
