@@ -203,6 +203,7 @@ button:focus {
 	width: 130px;
 	color: #fff;
 	border-radius: 10px;
+	margin-bottom: 25px;
 }
 
 .mu-send-msg-btn:hover,
@@ -245,7 +246,7 @@ button:focus {
 	margin-top: 35px;
 }
 .mu-logo img{
-	max-width: 100px;
+	max-width: 75px;
 	border-radius: 10px;
 }
 
