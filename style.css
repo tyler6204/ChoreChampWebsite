@@ -233,21 +233,33 @@ button:focus {
 }
 
 .mu-logo-area {
-	display: inline;
-	float: left;
-	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .mu-logo {
-	color: #fff;
-	font-size: 45px;
-	display: inline-block;
-	font-weight: 700;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+	margin-bottom: -25px;
+	
 }
-.mu-logo img{
-	max-width: 75px;
-	border-radius: 10px;
+
+.mu-logo img {
+    max-width: fit-content;
+    max-height: 150px;
+    border-radius: 10px;
 }
+
+.mu-logo:hover,
+.mu-logo:focus {
+    color: #fff;
+}
+
 
 .mu-logo:hover,
 .mu-logo:focus {
@@ -280,8 +292,7 @@ button:focus {
 .mu-header-featured-area {
 	display: inline;
 	float: left;
-	padding-bottom: 50px;
-	padding-top: 10px;
+	padding-bottom: 25px;
 	width: 100%;
 }
 
@@ -296,7 +307,7 @@ button:focus {
 .mu-header-featured-content {
 	display: inline;
 	float: right;
-	margin-top: 200px;
+	margin-top: 25%;
 	text-align: center;
 	width: 60%;
 }
@@ -519,9 +530,12 @@ button:focus {
 	padding: 0;
 	z-index: 10;
 	text-transform: capitalize;
+	font-size: 5vmin;
+	font-size: 2.5vmax;
 }
 
 .mu-title-dot {
+	background-color: #ffff;
 	border-radius: 50%;
 	height: 8px;
 	width: 8px;
@@ -531,6 +545,7 @@ button:focus {
 }
 
 .mu-title-dot::before {
+	background-color: #ffff;
 	content: '';
 	position: absolute;
 	left: 15px;
@@ -540,6 +555,7 @@ button:focus {
 }
 
 .mu-title-dot::after {
+	background-color: #ffff;
 	content: '';
 	position: absolute;
 	right: 15px;
@@ -662,7 +678,7 @@ button:focus {
 /*--------------------*/
 
 #mu-download {
-	background-image: url("assets/images/download-bg.jpeg");
+	background-color: #EA0230;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -673,7 +689,6 @@ button:focus {
 }
 
 #mu-download::before {
-	background: rgba(0,0,0,0.9);
 	bottom: 0;
 	content: '';
 	left: 0;
