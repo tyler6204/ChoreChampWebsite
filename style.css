@@ -1,31 +1,4 @@
 
-/*
-Template Name: Apex App	
-Author: MarkUps
-Author URI: http://www.markups.io/
-Version: 1.0
-*/
-
-
-/* Table of Content
-==================================================
-#BASIC TYPOGRAPHY
-#HEADER	
-#MENU 
-#FEATURE SECTION
-#VIDEO
-#APPPS SCREENSHOT
-#DOWNLOAD
-#FAQ
-#CONTACT US
-#FOOTER
-#RESPONSIVE STYLE
-*/
-
-
-/*--------------------*/
-/* BASIC TYPOGRAPHY */
-/*--------------------*/
 
 body,
 html {
@@ -641,7 +614,7 @@ button:focus {
 .mu-apps-screenshot-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding-bottom: 50px;
 	width: 100%;
 }
 
@@ -833,6 +806,9 @@ button:focus {
 	float: left;
 	margin-bottom: 35px;
 	width: 100%;
+}
+.mu-contact-right-single a:hover {
+    color: #EA0230;
 }
 
 .mu-contact-right-single .mu-icon {
