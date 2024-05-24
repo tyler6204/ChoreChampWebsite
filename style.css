@@ -102,6 +102,12 @@ h6 {
 img {
 	border: none;
 	max-width: 100%;
+	user-select: none; /* Standard syntax */
+	-webkit-user-drag: none;
+	-webkit-touch-callout: none; /* Disable callout, e.g., on iOS Safari */
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */	
 }
 
 code {
@@ -245,7 +251,6 @@ button:focus {
     color: #fff;
     font-size: 45px;
     font-weight: 700;
-	margin-bottom: -25px;
 	
 }
 
@@ -530,8 +535,7 @@ button:focus {
 	padding: 0;
 	z-index: 10;
 	text-transform: capitalize;
-	font-size: 5vmin;
-	font-size: 2.5vmax;
+	font-size: 50px;
 }
 
 .mu-title-dot {
