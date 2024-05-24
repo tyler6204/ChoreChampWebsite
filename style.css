@@ -243,7 +243,6 @@ button:focus {
 	font-size: 45px;
 	display: inline-block;
 	font-weight: 700;
-	margin-top: 35px;
 }
 .mu-logo img{
 	max-width: 75px;
@@ -1184,3 +1183,9 @@ button:focus {
 	
 }
 
+.mu-terms-of-use-area{
+	margin-top: 25px
+}
+.mu-privacy-policy-area{
+	margin-top: 25px
+}
