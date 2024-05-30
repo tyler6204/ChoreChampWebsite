@@ -10,12 +10,7 @@
             "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
           },
           {
-            "/": "*",
-            "exclude": true,
-            "comment": "Exclude all paths by default"
-          },
-          {
-            "/*": "/join/",
+            "/*": "/join",
             "?": { "householdID": "*" },
             "exclude": false,
             "comment": "Matches any URL whose path starts with /join/ and includes a householdID query parameter"
