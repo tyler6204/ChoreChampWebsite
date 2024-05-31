@@ -11,9 +11,8 @@
           },
           {
             "/*": "/join",
-            "?": { "householdID": "*" },
             "exclude": false,
-            "comment": "Matches any URL whose path starts with /join/ and includes a householdID query parameter"
+            "comment": "Matches any URL whose path starts with /join"
           }
         ]
       }
