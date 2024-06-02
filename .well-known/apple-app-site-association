@@ -2,19 +2,27 @@
   "applinks": {
     "details": [
       {
-        "appIDs": [ "3982L8EWZ8.TylerYust.ChoreChampRedo" ],
+        "appIDs": ["3982L8EWZ8.TylerYust.ChoreChampRedo"],
         "components": [
           {
-            "/*": "/join*",
+            "/": "/join",
+            "query": {
+              "householdID": "^[A-Za-z0-9]{8}$"
+            },
             "exclude": false,
-            "comment": "Matches any URL whose path starts with /join"
+            "comment": "Matches any URL whose path is /join and has a householdID query parameter with exactly 8 alphanumeric characters"
+          },
+          {
+            "/": ".*",
+            "exclude": true,
+            "comment": "Exclude all other URLs"
           }
         ]
       }
     ]
   },
   "webcredentials": {
-    "apps": [ "3982L8EWZ8.TylerYust.ChoreChampRedo" ]
+    "apps": ["3982L8EWZ8.TylerYust.ChoreChampRedo"]
   },
   "appclips": {
     "apps": ["3982L8EWZ8.TylerYust.ChoreChampRedo"]
